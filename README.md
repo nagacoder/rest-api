@@ -1,9 +1,9 @@
-# Simple CRUD applicatin with Golang
+# Simple CRUD application with Golang
 Hello this is a simple project crud application what i learn so far with golang ^_^
 
 
 ### Installation
-Make sure golang already installed in your computer
+Make sure golang already installed in your computer,
 Install the dependencies and devDependencies and start the server.
 
 ```sh
