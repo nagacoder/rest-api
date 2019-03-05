@@ -1,5 +1,5 @@
 # Simple CRUD applicatin with Golang
-Hello this is a simple project crud application what a learn so far with golang ^_^
+Hello this is a simple project crud application what i learn so far with golang ^_^
 
 
 ### Installation
