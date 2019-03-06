@@ -19,4 +19,8 @@ this is endpoint services ready to get test
 | METHOD | ENDPOINT | PARAMS
 | ------ | ------ |------ |
 | GET | http://localhost:2223/users |-|
+| GET | http://localhost:2223/users/ |id|
 | POST | http://localhost:2223/users |name,email,address|
+| PUT | http://localhost:2223/users/ |id ,name,email,address|
+| PACTH | http://localhost:2223/users/ |id ,name,email,address|
+| DELETE | http://localhost:2223/users/ |id|

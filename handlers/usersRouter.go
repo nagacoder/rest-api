@@ -25,16 +25,20 @@ func UsersRouter(w http.ResponseWriter, r *http.Request) {
 	if !bson.IsObjectIdHex(path) {
 		postError(w, http.StatusNotFound)
 	}
-	// id := bson.ObjectIdHex(path)
+	id := bson.ObjectIdHex(path)
 
 	switch r.Method {
 	case http.MethodGet:
+		userGetOne(w, r, id)
 		return
 	case http.MethodPut:
+		userPutOne(w, r, id)
 		return
 	case http.MethodPatch:
+		userPacthOne(w, r, id)
 		return
 	case http.MethodDelete:
+		userDeleteOne(w, r, id)
 		return
 	default:
 		postError(w, http.StatusMethodNotAllowed)
